@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         if (num2 != 0) {
                             result = num1 / num2;
                         } else {
-                            return "0";
+                            return "Error";
                         }
                         break;
                     default:
